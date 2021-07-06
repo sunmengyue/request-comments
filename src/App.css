@@ -15,7 +15,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
   border-radius: 10px;
   border: none;
 }
@@ -27,11 +26,11 @@ button {
 }
 
 .App {
-  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 60px;
+  background-color: var(--light-grey);
 }
 
 .control {

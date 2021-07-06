@@ -1,3 +1,65 @@
-.requests {
-  color: black;
+.request {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding: 15px 35px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.request:hover {
+  box-shadow: 2px 5px 6px 1px rgba(0, 0, 0, 0.45);
+}
+
+.request > .request__main {
+  display: flex;
+  align-items: center;
+}
+
+.request > .request__main > .upvote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: var(--grey);
+  color: var(--darker-blue);
+  font-weight: 500;
+  width: 40px;
+  height: 53px;
+  font-size: 13px;
+  margin-right: 40px;
+}
+
+.request__info > .request__title {
+  color: var(--darker-blue);
+  font-size: 20px;
+}
+
+.request__info > .request__description {
+  font-weight: 300;
+  color: var(--darker-blue);
+}
+
+.request__info > .request__enhancement {
+  background-color: var(--grey);
+  margin-top: 15px;
+  padding: 5px 10px;
+  color: var(--dark-blue);
+  font-weight: 500;
+}
+
+.request > .comments__num {
+  display: flex;
+  align-items: center;
+}
+
+.request > .comments__num > img {
+  margin-right: 10px;
+}
+
+.request > .comments__num > .num {
+  font-weight: 600;
 }

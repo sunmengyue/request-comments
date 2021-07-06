@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--darker-blue);
+  color: #fff;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 15px 30px;
+}
+
+.header .header__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header__info > img {
+  margin-right: 20px;
+}
+
+.header .header__info > p {
+  margin-right: 20px;
+}
+
+.header .header__info > .sort > span {
+  font-weight: 200;
+}
+
+.header > button {
+  background-color: var(--purple);
+  margin-left: 20px;
+}

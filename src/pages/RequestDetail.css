@@ -1,0 +1,15 @@
+.request__detail {
+  color: var(--darker-blue);
+}
+
+.request__detail p {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.comment > img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 30px;
+  align-self: flex-start;
+}
